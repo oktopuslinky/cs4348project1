@@ -26,3 +26,8 @@ I finished the writing code for logger.py, and I have confirmed that it works. T
 
 SESSION START
 Now that the logger code is done, I will move onto the encrypt file, as it is needed in order to write the code for the driver file. My aim is to finish the code for the encrypt.py file by the end of the session.
+
+# 10/29/2025 6:07 PM
+
+SESSION END
+I have finished the code for the encrypt file and have verified that it works. I ended up making a small change: I realized that the encryption and decryption versions of the algorithm are both very similar in nature, so I instead combined the two by differentiating between the method. 0 is for encryption and 1 is for decryption. This ended up simplifying the file to simply the vigenere function and the main function. This makes the program more readable and makes it adhere more to the DRY principle. Next, I will be working on the final file, which is the driver file. After that, the project should be complete.
