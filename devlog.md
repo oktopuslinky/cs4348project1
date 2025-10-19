@@ -31,3 +31,8 @@ Now that the logger code is done, I will move onto the encrypt file, as it is ne
 
 SESSION END
 I have finished the code for the encrypt file and have verified that it works. I ended up making a small change: I realized that the encryption and decryption versions of the algorithm are both very similar in nature, so I instead combined the two by differentiating between the method. 0 is for encryption and 1 is for decryption. This ended up simplifying the file to simply the vigenere function and the main function. This makes the program more readable and makes it adhere more to the DRY principle. Next, I will be working on the final file, which is the driver file. After that, the project should be complete.
+
+# 10/29/2025 6:20 PM
+
+SESSION START
+Now that I have finished the code for the logger and encrypt files, I will be working on the final file necessary, which is the driver file. For this file, I will essentially need to create something that allows for the user to select a certain command and input the necessary information. This will be done in a while loop until the user chooses to break out with 'QUIT'. The 5 commands are password, encrypt, decrypt, history, and quit. Therefore, I will need an if-elif-else block to address each menu option.
