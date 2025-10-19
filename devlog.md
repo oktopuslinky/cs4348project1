@@ -21,3 +21,8 @@ So far, I have declared the direction in which I wish to take the project, and h
 
 SESSION END
 I finished the writing code for logger.py, and I have confirmed that it works. The logger does everything it should: takes in user input and writes it to a file with timestamp modifications. I next wish to work on the encryption file, as I believe that will take the longest due to having to implement an encryption method in code.
+
+# 10/29/2025 4:45 PM
+
+SESSION START
+Now that the logger code is done, I will move onto the encrypt file, as it is needed in order to write the code for the driver file. My aim is to finish the code for the encrypt.py file by the end of the session.
