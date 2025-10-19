@@ -7,7 +7,12 @@ I need to write a program that essentially acts as a encrypter/decrypter and log
 SESSION START
 After finishing the first devlog entry, I want to now create files where the programs will live. During this session, I plan to create the files for the programs and declare all functions necessary to give direction to how I want to complete this project. I will also write what each function does, ensuring that I can look back at this in the next session and immediately know what to write. I will leave the content inside of the functions for the next sections.
 
-# 10/29/2025
+# 10/29/2025 4:01 PM
 
 SESSION END
 I finished creating all of the necessary files and functions. I have not declared any of the parameters for the functions, as I believe those can be written in later based on what the function needs. I wrote comments for all of the non-main functions, helping give a clear understanding of how each function operates. Next, I plan to start working on each file one-by-one.
+
+# 10/29/2025 4:05 PM
+
+SESSION START
+So far, I have declared the direction in which I wish to take the project, and have declared all of the functions I will use. I now want to start building some of the code. During this session, I plan to finish the logger file, as I simply need to take an input of a command and message and push that to a given file.
