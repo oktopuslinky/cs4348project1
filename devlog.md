@@ -16,3 +16,8 @@ I finished creating all of the necessary files and functions. I have not declare
 
 SESSION START
 So far, I have declared the direction in which I wish to take the project, and have declared all of the functions I will use. I now want to start building some of the code. During this session, I plan to finish the logger file, as I simply need to take an input of a command and message and push that to a given file.
+
+# 10/29/2025 4:30 PM
+
+SESSION END
+I finished the writing code for logger.py, and I have confirmed that it works. The logger does everything it should: takes in user input and writes it to a file with timestamp modifications. I next wish to work on the encryption file, as I believe that will take the longest due to having to implement an encryption method in code.

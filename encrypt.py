@@ -1,9 +1,9 @@
 def vigenere_encrypt():
-    '''encrypts using vigenere method'''
+    '''Encrypts using vigenere method'''
     pass
 
 def vignere_decrypt():
-    '''decrypts using vignere method'''
+    '''Decrypts using vignere method'''
     pass
 
 def main():
