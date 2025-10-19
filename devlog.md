@@ -1,0 +1,3 @@
+# 10/29/2025 3:00 PM
+
+I need to write a program that essentially acts as a encrypter/decrypter and logs all actions to a file, along with a driver program to use a menu. It will need to be sensitive to a few commands, which I can do by declaring a list of valid values in Python. Due to my familiarity with the language and its efficiency in writing and debugging, I will be using Python for this project. I will have 3 files that will work with each other: logger, encryption, and driver. The driver file will be the main file used for running the project. However, the encryption file will also be able to be used standalone for encryption testing.
