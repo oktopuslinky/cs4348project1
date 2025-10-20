@@ -36,3 +36,8 @@ I have finished the code for the encrypt file and have verified that it works. I
 
 SESSION START
 Now that I have finished the code for the logger and encrypt files, I will be working on the final file necessary, which is the driver file. For this file, I will essentially need to create something that allows for the user to select a certain command and input the necessary information. This will be done in a while loop until the user chooses to break out with 'QUIT'. The 5 commands are password, encrypt, decrypt, history, and quit. Therefore, I will need an if-elif-else block to address each menu option.
+
+# 10/29/2025 7:00 PM
+
+SESSION END
+I have finished all of the code for the driver, logger and encrypt.py files. I have also tested these files to ensure that they adhere to the assignment guidelines. Therefore, I am now finished with the project. I learned a lot from this project, such as how processes work in Python, how to implement the Vigenere algorithm, and how to build an encryption/decryption program that logs all actions. This was an essential project that allowed me to explore the ideas we covered in class through code, and truly strengthened my understanding of the subject. I also did not know abou the Vigenere algorithm, and it was very interesting to understand and decode the math and code the algorithm as a program.

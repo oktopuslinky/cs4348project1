@@ -3,6 +3,7 @@ from datetime import datetime
 
 def timestamped_line(action, message):
     '''Converts into datetime and returns the message'''
+    
     return f"{datetime.now().strftime('%Y-%m-%d %H:%M')} [{action}] {message}"
 
 def main():
@@ -20,8 +21,10 @@ def main():
             while True:
                 # ensure something was inputted
                 line = sys.stdin.readline()
+
                 if not line:
                     break
+
                 line = line.rstrip("\n")
 
                 # log a quit on the file when the user inputs 'QUIT'
@@ -30,6 +33,7 @@ def main():
                     f.write(entry + "\n")
                     f.flush()
                     break
+                
                 if not line.strip():
                     continue
 
@@ -45,6 +49,6 @@ def main():
     except Exception as e:
         print("LOGGER ERROR:", e, file=sys.stderr)
         sys.exit(1)
-        
+
 if __name__ == "__main__":
     main()

@@ -52,8 +52,10 @@ def main():
         while True:
             # read line of input and validate
             line = sys.stdin.readline()
+
             if not line:
                 break
+            
             line = line.rstrip("\n")
             if not line:
                 continue
